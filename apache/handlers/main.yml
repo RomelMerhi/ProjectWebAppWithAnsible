@@ -1,0 +1,5 @@
+  - name: Restart the apache2 server
+    service: name={{pkg_name}} state=restarted
+  - name: Print command message
+    debug: msg="command executed successfully"---
+
